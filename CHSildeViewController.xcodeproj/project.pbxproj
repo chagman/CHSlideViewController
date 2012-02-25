@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833F621114F9910200026C9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833F621014F9910200026C9B /* UIKit.framework */; };
+		833F621314F9910200026C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833F621214F9910200026C9B /* Foundation.framework */; };
+		833F621514F9910200026C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833F621414F9910200026C9B /* CoreGraphics.framework */; };
+		833F621B14F9910200026C9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833F621914F9910200026C9B /* InfoPlist.strings */; };
+		833F621D14F9910200026C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F621C14F9910200026C9B /* main.m */; };
+		833F622114F9910200026C9B /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F622014F9910200026C9B /* CHAppDelegate.m */; };
+		833F622414F9910200026C9B /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F622314F9910200026C9B /* CHViewController.m */; };
+		833F622714F9910200026C9B /* CHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833F622514F9910200026C9B /* CHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		833F620C14F9910200026C9B /* CHSildeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHSildeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833F621014F9910200026C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		833F621214F9910200026C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		833F621414F9910200026C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		833F621814F9910200026C9B /* CHSildeViewController-Info.plist */ = {isa = PBXFileReference; path = "CHSildeViewController-Info.plist"; sourceTree = "<group>"; };
+		833F621A14F9910200026C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F621C14F9910200026C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		833F621E14F9910200026C9B /* CHSildeViewController-Prefix.pch */ = {isa = PBXFileReference; path = "CHSildeViewController-Prefix.pch"; sourceTree = "<group>"; };
+		833F621F14F9910200026C9B /* CHAppDelegate.h */ = {isa = PBXFileReference; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		833F622014F9910200026C9B /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		833F622214F9910200026C9B /* CHViewController.h */ = {isa = PBXFileReference; path = CHViewController.h; sourceTree = "<group>"; };
+		833F622314F9910200026C9B /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
+		833F622614F9910200026C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833F620914F9910200026C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F621114F9910200026C9B /* UIKit.framework in Frameworks */,
+				833F621314F9910200026C9B /* Foundation.framework in Frameworks */,
+				833F621514F9910200026C9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833F620114F9910200026C9B = {
+			isa = PBXGroup;
+			children = (
+				833F621614F9910200026C9B /* CHSildeViewController */,
+				833F620F14F9910200026C9B /* Frameworks */,
+				833F620D14F9910200026C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833F620D14F9910200026C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833F620C14F9910200026C9B /* CHSildeViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833F620F14F9910200026C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833F621014F9910200026C9B /* UIKit.framework */,
+				833F621214F9910200026C9B /* Foundation.framework */,
+				833F621414F9910200026C9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		833F621614F9910200026C9B /* CHSildeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				833F621F14F9910200026C9B /* CHAppDelegate.h */,
+				833F622014F9910200026C9B /* CHAppDelegate.m */,
+				833F622214F9910200026C9B /* CHViewController.h */,
+				833F622314F9910200026C9B /* CHViewController.m */,
+				833F622514F9910200026C9B /* CHViewController.xib */,
+				833F621714F9910200026C9B /* Supporting Files */,
+			);
+			path = CHSildeViewController;
+			sourceTree = "<group>";
+		};
+		833F621714F9910200026C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				833F621814F9910200026C9B /* CHSildeViewController-Info.plist */,
+				833F621914F9910200026C9B /* InfoPlist.strings */,
+				833F621C14F9910200026C9B /* main.m */,
+				833F621E14F9910200026C9B /* CHSildeViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833F620B14F9910200026C9B /* CHSildeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833F622A14F9910200026C9B /* Build configuration list for PBXNativeTarget "CHSildeViewController" */;
+			buildPhases = (
+				833F620814F9910200026C9B /* Sources */,
+				833F620914F9910200026C9B /* Frameworks */,
+				833F620A14F9910200026C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHSildeViewController;
+			productName = CHSildeViewController;
+			productReference = 833F620C14F9910200026C9B /* CHSildeViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833F620314F9910200026C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Deloitte;
+			};
+			buildConfigurationList = 833F620614F9910200026C9B /* Build configuration list for PBXProject "CHSildeViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 833F620114F9910200026C9B;
+			productRefGroup = 833F620D14F9910200026C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833F620B14F9910200026C9B /* CHSildeViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833F620A14F9910200026C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F621B14F9910200026C9B /* InfoPlist.strings in Resources */,
+				833F622714F9910200026C9B /* CHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833F620814F9910200026C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F621D14F9910200026C9B /* main.m in Sources */,
+				833F622114F9910200026C9B /* CHAppDelegate.m in Sources */,
+				833F622414F9910200026C9B /* CHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		833F621914F9910200026C9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833F621A14F9910200026C9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		833F622514F9910200026C9B /* CHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833F622614F9910200026C9B /* en */,
+			);
+			name = CHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833F622814F9910200026C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		833F622914F9910200026C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833F622B14F9910200026C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSildeViewController/CHSildeViewController-Prefix.pch";
+				INFOPLIST_FILE = "CHSildeViewController/CHSildeViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		833F622C14F9910200026C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSildeViewController/CHSildeViewController-Prefix.pch";
+				INFOPLIST_FILE = "CHSildeViewController/CHSildeViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833F620614F9910200026C9B /* Build configuration list for PBXProject "CHSildeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F622814F9910200026C9B /* Debug */,
+				833F622914F9910200026C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833F622A14F9910200026C9B /* Build configuration list for PBXNativeTarget "CHSildeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833F622B14F9910200026C9B /* Debug */,
+				833F622C14F9910200026C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833F620314F9910200026C9B /* Project object */;
+}

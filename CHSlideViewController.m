@@ -160,6 +160,7 @@
     
 }
 
+//If the user selects the detailView while showing the masters
 -(void)touchedEdge:(UIGestureRecognizer *)gesture {
     if (gesture.state == UIGestureRecognizerStateEnded && self.showingMaster) {
         [self slideView:self];

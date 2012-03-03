@@ -13,8 +13,13 @@
 		833F621B14F9910200026C9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833F621914F9910200026C9B /* InfoPlist.strings */; };
 		833F621D14F9910200026C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F621C14F9910200026C9B /* main.m */; };
 		833F622114F9910200026C9B /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F622014F9910200026C9B /* CHAppDelegate.m */; };
-		833F622414F9910200026C9B /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F622314F9910200026C9B /* CHViewController.m */; };
-		833F622714F9910200026C9B /* CHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833F622514F9910200026C9B /* CHViewController.xib */; };
+		833F623214F9990F00026C9B /* CHSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F623114F9990F00026C9B /* CHSlideViewController.m */; };
+		833F623A14F9AD9B00026C9B /* slideButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 833F623814F9AD9B00026C9B /* slideButtonImage.png */; };
+		833F623B14F9AD9B00026C9B /* slideButtonImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833F623914F9AD9B00026C9B /* slideButtonImage@2x.png */; };
+		833F624814F9B3E500026C9B /* CHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833F624614F9B3E500026C9B /* CHDetailViewController.m */; };
+		833F624914F9B3E500026C9B /* CHDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833F624714F9B3E500026C9B /* CHDetailViewController.xib */; };
+		8385C82715004D8C00203D45 /* CHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385C82515004D8C00203D45 /* CHTableViewController.m */; };
+		8385C82815004D8C00203D45 /* CHTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8385C82615004D8C00203D45 /* CHTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,22 @@
 		833F621014F9910200026C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		833F621214F9910200026C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		833F621414F9910200026C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		833F621814F9910200026C9B /* CHSildeViewController-Info.plist */ = {isa = PBXFileReference; path = "CHSildeViewController-Info.plist"; sourceTree = "<group>"; };
+		833F621814F9910200026C9B /* CHSildeViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHSildeViewController-Info.plist"; sourceTree = "<group>"; };
 		833F621A14F9910200026C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		833F621C14F9910200026C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		833F621E14F9910200026C9B /* CHSildeViewController-Prefix.pch */ = {isa = PBXFileReference; path = "CHSildeViewController-Prefix.pch"; sourceTree = "<group>"; };
-		833F621F14F9910200026C9B /* CHAppDelegate.h */ = {isa = PBXFileReference; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		833F621E14F9910200026C9B /* CHSildeViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHSildeViewController-Prefix.pch"; sourceTree = "<group>"; };
+		833F621F14F9910200026C9B /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
 		833F622014F9910200026C9B /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
-		833F622214F9910200026C9B /* CHViewController.h */ = {isa = PBXFileReference; path = CHViewController.h; sourceTree = "<group>"; };
-		833F622314F9910200026C9B /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
-		833F622614F9910200026C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHViewController.xib; sourceTree = "<group>"; };
+		833F623014F9990F00026C9B /* CHSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSlideViewController.h; path = ../CHSlideViewController.h; sourceTree = "<group>"; };
+		833F623114F9990F00026C9B /* CHSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSlideViewController.m; path = ../CHSlideViewController.m; sourceTree = "<group>"; };
+		833F623814F9AD9B00026C9B /* slideButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideButtonImage.png; sourceTree = "<group>"; };
+		833F623914F9AD9B00026C9B /* slideButtonImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideButtonImage@2x.png"; sourceTree = "<group>"; };
+		833F624514F9B3E500026C9B /* CHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDetailViewController.h; sourceTree = "<group>"; };
+		833F624614F9B3E500026C9B /* CHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDetailViewController.m; sourceTree = "<group>"; };
+		833F624714F9B3E500026C9B /* CHDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHDetailViewController.xib; sourceTree = "<group>"; };
+		8385C82415004D8C00203D45 /* CHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTableViewController.h; sourceTree = "<group>"; };
+		8385C82515004D8C00203D45 /* CHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTableViewController.m; sourceTree = "<group>"; };
+		8385C82615004D8C00203D45 /* CHTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +91,8 @@
 			children = (
 				833F621F14F9910200026C9B /* CHAppDelegate.h */,
 				833F622014F9910200026C9B /* CHAppDelegate.m */,
-				833F622214F9910200026C9B /* CHViewController.h */,
-				833F622314F9910200026C9B /* CHViewController.m */,
-				833F622514F9910200026C9B /* CHViewController.xib */,
+				8382094615006A2500B864D5 /* SlideViewController */,
+				8382094715006A3900B864D5 /* ViewControllers */,
 				833F621714F9910200026C9B /* Supporting Files */,
 			);
 			path = CHSildeViewController;
@@ -90,12 +101,44 @@
 		833F621714F9910200026C9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				833F623714F9AD7D00026C9B /* Images */,
 				833F621814F9910200026C9B /* CHSildeViewController-Info.plist */,
 				833F621914F9910200026C9B /* InfoPlist.strings */,
 				833F621C14F9910200026C9B /* main.m */,
 				833F621E14F9910200026C9B /* CHSildeViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		833F623714F9AD7D00026C9B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				833F623814F9AD9B00026C9B /* slideButtonImage.png */,
+				833F623914F9AD9B00026C9B /* slideButtonImage@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8382094615006A2500B864D5 /* SlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				833F623014F9990F00026C9B /* CHSlideViewController.h */,
+				833F623114F9990F00026C9B /* CHSlideViewController.m */,
+			);
+			name = SlideViewController;
+			sourceTree = "<group>";
+		};
+		8382094715006A3900B864D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				833F624514F9B3E500026C9B /* CHDetailViewController.h */,
+				833F624614F9B3E500026C9B /* CHDetailViewController.m */,
+				8385C82415004D8C00203D45 /* CHTableViewController.h */,
+				8385C82515004D8C00203D45 /* CHTableViewController.m */,
+				8385C82615004D8C00203D45 /* CHTableViewController.xib */,
+				833F624714F9B3E500026C9B /* CHDetailViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				833F621B14F9910200026C9B /* InfoPlist.strings in Resources */,
-				833F622714F9910200026C9B /* CHViewController.xib in Resources */,
+				833F623A14F9AD9B00026C9B /* slideButtonImage.png in Resources */,
+				833F623B14F9AD9B00026C9B /* slideButtonImage@2x.png in Resources */,
+				833F624914F9B3E500026C9B /* CHDetailViewController.xib in Resources */,
+				8385C82815004D8C00203D45 /* CHTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +210,9 @@
 			files = (
 				833F621D14F9910200026C9B /* main.m in Sources */,
 				833F622114F9910200026C9B /* CHAppDelegate.m in Sources */,
-				833F622414F9910200026C9B /* CHViewController.m in Sources */,
+				833F623214F9990F00026C9B /* CHSlideViewController.m in Sources */,
+				833F624814F9B3E500026C9B /* CHDetailViewController.m in Sources */,
+				8385C82715004D8C00203D45 /* CHTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +225,6 @@
 				833F621A14F9910200026C9B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		833F622514F9910200026C9B /* CHViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				833F622614F9910200026C9B /* en */,
-			);
-			name = CHViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHSildeViewController/CHSildeViewController-Prefix.pch";
 				INFOPLIST_FILE = "CHSildeViewController/CHSildeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +291,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHSildeViewController/CHSildeViewController-Prefix.pch";
 				INFOPLIST_FILE = "CHSildeViewController/CHSildeViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +316,7 @@
 				833F622C14F9910200026C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

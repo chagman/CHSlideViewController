@@ -9,6 +9,9 @@
 #import "CHAppDelegate.h"
 
 #import "CHViewController.h"
+#import "CHSlideViewController.h"
+#import "CHTableViewController.h"
+#import "CHDetailViewController.h"
 
 @implementation CHAppDelegate
 
@@ -25,9 +28,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
     // Override point for customization after application launch.
-    self.viewController = [[[CHViewController alloc] initWithNibName:@"CHViewController" bundle:nil] autorelease];
+    
+    //Create our views for the SlideViewController
+    CHTableViewController *table = [[[CHTableViewController alloc] initWithNibName:@"CHTableViewController" bundle:nil] autorelease];
+    CHDetailViewController *detail = [[[CHDetailViewController alloc] initWithNibName:@"CHDetailViewController" bundle:nil] autorelease];
+    
+    //Create the slideview controller
+    CHSlideViewController *viewController = [[CHSlideViewController alloc] initWithNibName:nil bundle:nil];
+    viewController.viewControllers = [NSArray arrayWithObjects:table, detail, nil];
+    
+    //Make sure the master and detail views have reverences to each other
+    table.detailDelegate = detail;
+    detail.slideViewController = viewController;
+    
+    //Set the AppDelegate controller to the SlideViewController
+    self.viewController = viewController;
     self.window.rootViewController = self.viewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
